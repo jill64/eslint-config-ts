@@ -20,6 +20,7 @@ npm i @jill64/eslint-config-ts
 // eslint.config.js
 import { tsConfig } from '@jill64/eslint-config-ts'
 
+/** @type {import('@jill64/eslint-config-ts').FlatConfig[]} */
 export default [
   ...tsConfig()
   // ...
