@@ -1,6 +1,6 @@
 {
   "name": "@jill64/eslint-config-ts",
-  "description": "",
+  "description": "🔹Pre-Defined ESLint Flat Config for TypeScript",
   "version": "0.0.0",
   "type": "module",
   "main": "dist/index.js",
@@ -10,7 +10,9 @@
   "homepage": "https://github.com/jill64/eslint-config-ts#readme",
   "files": [
     "dist",
-    "!**/*.test.*"
+    "!**/*.test.*",
+    "!*.test.*",
+    "!*.spec.*"
   ],
   "exports": {
     ".": {
@@ -25,7 +27,10 @@
   "publishConfig": {
     "access": "public"
   },
-  "keywords": [],
+  "keywords": [
+    "config",
+    "eslint"
+  ],
   "scripts": {
     "build": "tsc && npx publint",
     "prepack": "npm run build",
