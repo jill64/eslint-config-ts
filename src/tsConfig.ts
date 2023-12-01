@@ -1,9 +1,9 @@
 import js from '@eslint/js'
 import ts from '@typescript-eslint/eslint-plugin'
 import tsParser from '@typescript-eslint/parser'
-import type { Linter } from 'eslint'
 import prettier from 'eslint-config-prettier'
 import deprecation from 'eslint-plugin-deprecation'
+import { FlatConfig } from './types/FlatConfig.js'
 
 export const tsConfig = (options?: {
   exclude?: {
@@ -12,7 +12,7 @@ export const tsConfig = (options?: {
   }
   tsConfigPath?: string
   ignores?: string[]
-}): Linter.FlatConfig[] => [
+}): FlatConfig[] => [
   {
     files: ['**/*.{js,jsx,cjs,mjs,ts,tsx,cts,mts}']
   },
