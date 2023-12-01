@@ -13,3 +13,15 @@ npm i @jill64/eslint-config-ts
 ```
 
 <!----- END GHOST DOCS HEADER ----->
+
+## Usage
+
+```js
+// eslint.config.js
+import { tsConfig } from '@jill64/eslint-config-ts'
+
+export default [
+  ...tsConfig()
+  // ...
+]
+```
