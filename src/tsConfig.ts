@@ -37,7 +37,10 @@ export const tsConfig = (options?: {
       ...ts.configs.recommended.rules
     }
   },
-  js.configs.recommended,
+  {
+    ignores: ['**/*.{ts,tsx,cts,mts}'],
+    ...js.configs.recommended
+  },
   options?.exclude?.prettier ? {} : prettier,
   // @ts-expect-error workaround until upstream update
   options?.exclude?.deprecation
