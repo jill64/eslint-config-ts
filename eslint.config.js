@@ -1,4 +1,4 @@
 import { tsConfig } from './dist/index.js'
 
-/** @type {import('eslint').Linter.FlatConfig[]} */
+/** @type {import('./dist/index.js').FlatConfig[]} */
 export default tsConfig()
