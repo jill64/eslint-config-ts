@@ -17,7 +17,11 @@ export const tsConfig = (options?: {
     files: ['**/*.{js,jsx,cjs,mjs,ts,tsx,cts,mts}']
   },
   {
-    ignores: options?.ignores ?? ['dist', '*.config.{js,ts,cjs,mjs,cts,mts}']
+    ignores: options?.ignores ?? [
+      'dist',
+      'coverage',
+      '*.config.{js,ts,cjs,mjs,cts,mts}'
+    ]
   },
   {
     plugins: {
