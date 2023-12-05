@@ -11,7 +11,7 @@
 ## Installation
 
 ```sh
-npm i @jill64/eslint-config-ts
+npm i -D @jill64/eslint-config-ts
 ```
 
 ## Usage
