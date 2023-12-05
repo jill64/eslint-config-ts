@@ -6,18 +6,28 @@
 
 🔹Pre-Defined ESLint Flat Config for TypeScript
 
+<!----- END GHOST DOCS HEADER ----->
+
 ## Installation
 
 ```sh
 npm i @jill64/eslint-config-ts
 ```
 
-<!----- END GHOST DOCS HEADER ----->
-
 ## Usage
 
+`eslint.config.js`
+
 ```js
-// eslint.config.js
+import { tsConfig } from '@jill64/eslint-config-ts'
+
+/** @type {import('@jill64/eslint-config-ts').FlatConfig[]} */
+export default tsConfig()
+```
+
+To add any configuration, configure as follows
+
+```js
 import { tsConfig } from '@jill64/eslint-config-ts'
 
 /** @type {import('@jill64/eslint-config-ts').FlatConfig[]} */
