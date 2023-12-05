@@ -11,12 +11,12 @@
 ## Installation
 
 ```sh
-npm i @jill64/eslint-config-ts
+npm i -D @jill64/eslint-config-ts
 ```
 
 ## Usage
 
-`eslint.config.js`
+eslint.config.js
 
 ```js
 import { tsConfig } from '@jill64/eslint-config-ts'
