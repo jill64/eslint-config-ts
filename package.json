@@ -5,7 +5,12 @@
   "type": "module",
   "main": "dist/index.js",
   "license": "MIT",
-  "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
+  "author": {
+    "name": "jill64",
+    "email": "143883742+jill64@users.noreply.github.com",
+    "url": "https://github.com/jill64",
+    "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
+  },
   "bugs": "https://github.com/jill64/eslint-config-ts/issues",
   "homepage": "https://github.com/jill64/eslint-config-ts#readme",
   "files": [
@@ -19,7 +24,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jill64/eslint-config-ts.git"
+    "url": "https://github.com/jill64/eslint-config-ts.git",
+    "image": "https://opengraph.githubassets.com/de0b9bdef648e450df7b9d65990567b8e7759dbd4fb752ce071732e30b7ae617/jill64/eslint-config-ts"
   },
   "publishConfig": {
     "access": "public"
