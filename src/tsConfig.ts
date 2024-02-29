@@ -29,7 +29,6 @@ export const tsConfig = (options?: {
       '@typescript-eslint': ts
     },
     languageOptions: {
-      // @ts-expect-error workaround until upstream update
       parser: tsParser,
       parserOptions: {
         project: [options?.tsConfigPath ?? './tsconfig.json']
