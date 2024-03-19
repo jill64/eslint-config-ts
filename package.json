@@ -1,7 +1,7 @@
 {
   "name": "@jill64/eslint-config-ts",
   "description": "🔹Pre-Defined ESLint Flat Config for TypeScript",
-  "version": "1.1.12",
+  "version": "1.1.13",
   "type": "module",
   "main": "dist/index.js",
   "license": "MIT",
@@ -48,7 +48,7 @@
     "typescript": "5.4.2"
   },
   "dependencies": {
-    "@types/eslint": "8.56.5",
+    "@types/eslint": "8.56.6",
     "@eslint/js": "8.57.0",
     "@types/eslint-config-prettier": "6.11.3",
     "@typescript-eslint/eslint-plugin": "7.3.1",
