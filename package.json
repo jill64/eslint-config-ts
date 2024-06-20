@@ -25,7 +25,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/eslint-config-ts.git",
-    "image": "https://opengraph.githubassets.com/9a00a0bd0fe558855f26540e04cdf566c2bedd3cfaf1f12e9cfd283c320b389c/jill64/eslint-config-ts"
+    "image": "https://opengraph.githubassets.com/f14a8d3597dbc8183397e932de61d5a152fed3e4d5be68491f8458ba6d3f046d/jill64/eslint-config-ts"
   },
   "publishConfig": {
     "access": "public"
@@ -45,7 +45,7 @@
   "devDependencies": {
     "@jill64/prettier-config": "1.0.0",
     "@types/eslint__js": "8.42.3",
-    "typescript": "5.4.5"
+    "typescript": "5.5.2"
   },
   "dependencies": {
     "@types/eslint": "8.56.7",
