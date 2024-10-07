@@ -24,8 +24,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jill64/eslint-config-ts.git",
-    "image": "https://opengraph.githubassets.com/363614dfd386a9a3bd596b047fe0fb79a189eb25a32edcc54340549b3c1f238d/jill64/eslint-config-ts"
+    "url": "git+https://github.com/jill64/eslint-config-ts.git",
+    "image": "https://opengraph.githubassets.com/ca6db5a579b475df33d94590956adb7c7616c298f2231c547b4bd733163d460d/jill64/eslint-config-ts"
   },
   "publishConfig": {
     "access": "public"
