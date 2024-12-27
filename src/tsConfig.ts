@@ -2,12 +2,10 @@ import js from '@eslint/js'
 import ts from '@typescript-eslint/eslint-plugin'
 import tsParser from '@typescript-eslint/parser'
 import prettier from 'eslint-config-prettier'
-import deprecation from 'eslint-plugin-deprecation'
 import { FlatConfig } from './types/FlatConfig.js'
 
 export const tsConfig = (options?: {
   exclude?: {
-    deprecation?: boolean
     prettier?: boolean
   }
   tsConfigPath?: string
@@ -34,7 +32,6 @@ export const tsConfig = (options?: {
         project: [options?.tsConfigPath ?? './tsconfig.json']
       }
     },
-    // @ts-expect-error workaround until upstream update
     rules: {
       ...ts.configs.base.rules,
       ...ts.configs.recommended.rules
@@ -44,14 +41,5 @@ export const tsConfig = (options?: {
     ignores: ['**/*.{ts,tsx,cts,mts}'],
     ...js.configs.recommended
   },
-  options?.exclude?.prettier ? {} : prettier,
-  // @ts-expect-error workaround until upstream update
-  options?.exclude?.deprecation
-    ? {}
-    : {
-        plugins: {
-          deprecation
-        },
-        rules: deprecation.configs.recommended.rules
-      }
+  options?.exclude?.prettier ? {} : prettier
 ]
