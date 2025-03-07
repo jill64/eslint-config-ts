@@ -1,7 +1,7 @@
 {
   "name": "@jill64/eslint-config-ts",
   "description": "🔹Pre-Defined ESLint Flat Config for TypeScript",
-  "version": "2.0.14",
+  "version": "2.0.15",
   "type": "module",
   "main": "dist/index.js",
   "license": "MIT",
@@ -25,7 +25,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/eslint-config-ts.git",
-    "image": "https://opengraph.githubassets.com/feb9131f1d39bbbb84dfea5baadec6ad2acd3093dca8fb0ecac5708cb2995feb/jill64/eslint-config-ts"
+    "image": "https://opengraph.githubassets.com/1060fbeb21c9c3c71d0d8d917a603eda68f8b3f00cdadb1d2f0c78936db5e9f4/jill64/eslint-config-ts"
   },
   "publishConfig": {
     "access": "public"
@@ -54,6 +54,6 @@
     "@typescript-eslint/eslint-plugin": "8.26.0",
     "@typescript-eslint/parser": "8.26.0",
     "eslint": "9.21.0",
-    "eslint-config-prettier": "10.0.2"
+    "eslint-config-prettier": "10.1.1"
   }
 }
